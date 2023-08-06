@@ -97,9 +97,9 @@
 				C39E5D722A7ED2230003E113 /* GameViewController.swift */,
 				C39E5D742A7ED2230003E113 /* Main.storyboard */,
 				C39E5D9C2A7ED67C0003E113 /* Constants.swift */,
+				C39E5D822A7ED48C0003E113 /* Resources */,
 				C39E5DA12A7ED7870003E113 /* Players */,
 				C39E5D812A7ED4460003E113 /* Scenes */,
-				C39E5D822A7ED48C0003E113 /* Resources */,
 			);
 			path = Pacman;
 			sourceTree = "<group>";
