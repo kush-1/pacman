@@ -2,10 +2,19 @@
 //  CutScene1.swift
 //  PacMan
 //
-//  Created by The Architect.
-//  ©The Architect Labs - 2023
-//  Website:  https://thearchitectlabs.github.io
-//  YouTube:  https://www.youtube.com/@thearchitectlabs
+//  Kush Desai and James Park
 //
 
-import Foundation
+import SpriteKit
+
+class CutScene1: SKScene {
+    
+    override func didMove(to view: SKView) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 14) {
+            if let newScene = SKScene(fileNamed: "GameScene") {
+                newScene.scaleMode = self.scaleMode
+                self.view?.presentScene(newScene, transition: SKTransition.fade(withDuration: 1))
+            }
+        }
+    }
+}

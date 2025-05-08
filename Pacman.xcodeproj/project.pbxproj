@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		433976E72DCC1E8A0048AF9F /* CutScene1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 433976E52DCC1E8A0048AF9F /* CutScene1.sks */; };
+		433976E82DCC1E8A0048AF9F /* CutScene2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 433976E62DCC1E8A0048AF9F /* CutScene2.sks */; };
+		433B403A2DCC0A9A00E9CEDB /* OpeningScene2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 433B40392DCC0A9900E9CEDB /* OpeningScene2.sks */; };
+		433B403D2DCC0FCC00E9CEDB /* OpeningScene1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 433B403C2DCC0FCC00E9CEDB /* OpeningScene1.sks */; };
 		C39E5D6B2A7ED2230003E113 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E5D6A2A7ED2230003E113 /* AppDelegate.swift */; };
 		C39E5D6D2A7ED2230003E113 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C39E5D6C2A7ED2230003E113 /* GameScene.sks */; };
 		C39E5D712A7ED2230003E113 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E5D702A7ED2230003E113 /* GameScene.swift */; };
 		C39E5D732A7ED2230003E113 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E5D722A7ED2230003E113 /* GameViewController.swift */; };
 		C39E5D762A7ED2230003E113 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39E5D742A7ED2230003E113 /* Main.storyboard */; };
-		C39E5D7B2A7ED2240003E113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C39E5D792A7ED2240003E113 /* LaunchScreen.storyboard */; };
 		C39E5D8F2A7ED4B60003E113 /* pacman_extrapac.wav in Resources */ = {isa = PBXBuildFile; fileRef = C39E5D842A7ED4B60003E113 /* pacman_extrapac.wav */; };
 		C39E5D902A7ED4B60003E113 /* pacman_beginning.wav in Resources */ = {isa = PBXBuildFile; fileRef = C39E5D852A7ED4B60003E113 /* pacman_beginning.wav */; };
 		C39E5D912A7ED4B60003E113 /* pacman_eatfruit.wav in Resources */ = {isa = PBXBuildFile; fileRef = C39E5D862A7ED4B60003E113 /* pacman_eatfruit.wav */; };
@@ -34,13 +37,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		433976E52DCC1E8A0048AF9F /* CutScene1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CutScene1.sks; sourceTree = "<group>"; };
+		433976E62DCC1E8A0048AF9F /* CutScene2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CutScene2.sks; sourceTree = "<group>"; };
+		433B40392DCC0A9900E9CEDB /* OpeningScene2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OpeningScene2.sks; sourceTree = "<group>"; };
+		433B403C2DCC0FCC00E9CEDB /* OpeningScene1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OpeningScene1.sks; sourceTree = "<group>"; };
 		C39E5D672A7ED2230003E113 /* Pacman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39E5D6A2A7ED2230003E113 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C39E5D6C2A7ED2230003E113 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		C39E5D702A7ED2230003E113 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		C39E5D722A7ED2230003E113 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		C39E5D752A7ED2230003E113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C39E5D7A2A7ED2240003E113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C39E5D842A7ED4B60003E113 /* pacman_extrapac.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pacman_extrapac.wav; sourceTree = "<group>"; };
 		C39E5D852A7ED4B60003E113 /* pacman_beginning.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pacman_beginning.wav; sourceTree = "<group>"; };
 		C39E5D862A7ED4B60003E113 /* pacman_eatfruit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pacman_eatfruit.wav; sourceTree = "<group>"; };
@@ -107,7 +113,6 @@
 		C39E5D812A7ED4460003E113 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				C39E5D9A2A7ED50D0003E113 /* LaunchScene */,
 				C39E5D9B2A7ED5150003E113 /* OpeningScene */,
 				C39E5D992A7ED5040003E113 /* GameScene */,
 				C39E5D982A7ED4F70003E113 /* CutScenes */,
@@ -160,6 +165,8 @@
 			children = (
 				C39E5DAC2A7ED8E30003E113 /* CutScene1.swift */,
 				C39E5DAE2A7ED8F70003E113 /* CutScene2.swift */,
+				433976E52DCC1E8A0048AF9F /* CutScene1.sks */,
+				433976E62DCC1E8A0048AF9F /* CutScene2.sks */,
 			);
 			path = CutScenes;
 			sourceTree = "<group>";
@@ -175,19 +182,13 @@
 			path = GameScene;
 			sourceTree = "<group>";
 		};
-		C39E5D9A2A7ED50D0003E113 /* LaunchScene */ = {
-			isa = PBXGroup;
-			children = (
-				C39E5D792A7ED2240003E113 /* LaunchScreen.storyboard */,
-			);
-			path = LaunchScene;
-			sourceTree = "<group>";
-		};
 		C39E5D9B2A7ED5150003E113 /* OpeningScene */ = {
 			isa = PBXGroup;
 			children = (
 				C39E5DA82A7ED8A30003E113 /* OpeningScene1.swift */,
 				C39E5DAA2A7ED8B00003E113 /* OpeningScene2.swift */,
+				433B40392DCC0A9900E9CEDB /* OpeningScene2.sks */,
+				433B403C2DCC0FCC00E9CEDB /* OpeningScene1.sks */,
 			);
 			path = OpeningScene;
 			sourceTree = "<group>";
@@ -232,7 +233,7 @@
 					New,
 				);
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					C39E5D662A7ED2230003E113 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -263,18 +264,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				C39E5D762A7ED2230003E113 /* Main.storyboard in Resources */,
+				433B403A2DCC0A9A00E9CEDB /* OpeningScene2.sks in Resources */,
 				C39E5D922A7ED4B60003E113 /* pacman_death.wav in Resources */,
 				C39E5D6D2A7ED2230003E113 /* GameScene.sks in Resources */,
 				C39E5D942A7ED4B60003E113 /* pacman_intermission.wav in Resources */,
 				C39E5D972A7ED4B60003E113 /* Assets.xcassets in Resources */,
 				C39E5D912A7ED4B60003E113 /* pacman_eatfruit.wav in Resources */,
 				C39E5D902A7ED4B60003E113 /* pacman_beginning.wav in Resources */,
+				433976E72DCC1E8A0048AF9F /* CutScene1.sks in Resources */,
+				433976E82DCC1E8A0048AF9F /* CutScene2.sks in Resources */,
 				C39E5D962A7ED4B60003E113 /* Chalkboard.ttc in Resources */,
-				C39E5D7B2A7ED2240003E113 /* LaunchScreen.storyboard in Resources */,
 				C39E5D8F2A7ED4B60003E113 /* pacman_extrapac.wav in Resources */,
 				C39E5D9F2A7ED6DE0003E113 /* Walls.sks in Resources */,
 				C39E5D952A7ED4B60003E113 /* pacman_eatghost.wav in Resources */,
 				C39E5D932A7ED4B60003E113 /* pacman_chomp.wav in Resources */,
+				433B403D2DCC0FCC00E9CEDB /* OpeningScene1.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +312,6 @@
 				C39E5D752A7ED2230003E113 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C39E5D792A7ED2240003E113 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C39E5D7A2A7ED2240003E113 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -355,8 +351,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2PWD73ANN2;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -415,8 +413,10 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2PWD73ANN2;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -442,7 +442,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2PWD73ANN2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pacman/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Pacman;
@@ -454,6 +453,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +464,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -477,7 +478,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2PWD73ANN2;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Pacman/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Pacman;
@@ -489,6 +489,7 @@
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,6 +500,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 2;

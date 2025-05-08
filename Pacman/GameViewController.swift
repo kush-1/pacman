@@ -2,10 +2,7 @@
 //  GameViewController.swift
 //  PacMan
 //
-//  Created by The Architect.
-//  ©The Architect Labs - 2023
-//  Website:  https://thearchitectlabs.github.io
-//  YouTube:  https://www.youtube.com/@thearchitectlabs
+//  Kush Desai and James Park
 //
 
 import UIKit
@@ -18,7 +15,7 @@ class GameViewController: UIViewController {
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
+            if let scene = SKScene(fileNamed: "OpeningScene1") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFit
                 
